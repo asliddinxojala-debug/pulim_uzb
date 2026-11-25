@@ -1,0 +1,23 @@
+{
+  "name": "Pulim — Shaxsiy moliya",
+  "short_name": "Pulim",
+  "description": "Daromad, xarajat, qarz, byudjet va jamg'arma maqsadlarini oddiy o'zbek tilida boshqaring.",
+  "lang": "uz",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#EEF1F4",
+  "theme_color": "#EEF1F4",
+  "categories": ["finance", "productivity"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Yordamchi", "url": "./?p=ai", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "Tahlil", "url": "./?p=an", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "Byudjet", "url": "./?p=bud", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] }
+  ]
+}

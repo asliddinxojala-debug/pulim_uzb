@@ -1,0 +1,18 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#EEF1F4">
+<title>Pulim</title>
+<meta name="description" content="Pulim — o'zbek tilidagi shaxsiy moliya ilovasi. Xarajatni oddiy gap bilan yozing: kategoriya, oylik tahlil, byudjet, qarzlar va eslatmalar avtomatik.">
+<meta property="og:title" content="Pulim"><meta property="og:description" content="Pulingiz qayerga ketayotganini aniq biling. O'zbek tilida, oddiy gap bilan."><meta property="og:image" content="icon-512.png"><meta property="og:type" content="website">
+<link rel="icon" type="image/svg+xml" href="logo.svg"><link rel="icon" type="image/png" sizes="192x192" href="icon-192.png"><link rel="apple-touch-icon" href="apple-touch-icon.png"><link rel="manifest" href="manifest.webmanifest">
+<link rel="preload" href="fonts/onest-500.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="fonts/unbounded-600.woff2" as="font" type="font/woff2" crossorigin>
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="Pulim">
+<script>try{var t=localStorage.getItem('hisobchi-theme');if(t!=='light'&&t!=='dark')t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.dataset.theme=t}catch(e){}</script>
+<link rel="stylesheet" href="style.css"></head><body>
+<div id="auth" hidden></div>
+<div id="admin" hidden></div>
+<div class="app" hidden>
+ <aside class="side" aria-label="Asosiy menyu"><div class="brand"><svg class="mark" viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" rx="24" fill="currentColor"/><g transform="translate(16 14) scale(.72)"><rect x="20" y="13" width="15" height="74" rx="7.5" fill="#fff"/><path d="M28 20.5h27a19.5 19.5 0 0 1 0 39H28" fill="none" stroke="#fff" stroke-width="13" stroke-linejoin="round"/><rect x="34" y="38" width="34" height="4" rx="2" fill="#fff" opacity=".55"/><circle cx="46" cy="40" r="7" fill="#F2B53A"/><circle cx="60" cy="40" r="7" fill="#F2B53A"/><rect x="34" y="71" width="30" height="3" rx="1.5" fill="#fff" opacity=".35"/><circle cx="57" cy="72.5" r="4.6" fill="#fff" opacity=".35"/></g></svg><div><b>Pulim</b><span>Shaxsiy moliya</span></div></div><nav class="nav" id="nav"></nav><div class="side-foot" id="sfoot"></div></aside>
+ <main class="main"><div class="wrap"><header class="top"><div><h1 id="ttl"></h1><p id="sub"></p></div><div class="top-act" id="topact"></div></header><section id="view" aria-live="polite"></section></div></main>
+ <nav class="tabbar" id="tabbar" aria-label="Pastki menyu"></nav>
+</div>
+<div id="sheet" hidden></div><div id="toast" role="status" aria-live="polite"></div><input type="file" id="imp" accept="application/json,.json" hidden>
+<script src="i18n.js"></script><script src="i18n-dict.js"></script><script src="auth.js"></script><script src="core.js"></script><script src="app.js"></script><script src="theme.js"></script><script src="admin.js"></script><script src="authui.js"></script></body></html>
